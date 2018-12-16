@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #f2f4fa;
+}
+.wrapper{
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#friends-app {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    min-width: 300px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+
+
+
+
+
+
+/*sort box */
+.sortBox {
+    border: 1px solid  black;
+
+    padding: 10px;
+
+   width: 250px;
+}
+.sortBox__header{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.sortBox__sorted{
+    text-align: left;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.sortBox__sortedIcons{
+    float: right;
+    cursor: pointer;
+    color: white;
+    width: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+.sortBox__sortedIcons  .fas:hover {
+ color: gold;
+}
+.sortBox__sortedHeader{
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    display: inline-block;
+}
+
+.sortBox__resetBtn{
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: white;
+}
+.sortBox__resetBtn:hover{
+    color: gold;
+}
+.sortBox__sortedInput{
+    padding: 5px;
+}
+
+
+
+
+/*peoples */
+
+.peoples{
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    width: 1000px;
+
+}
+
+
+
+
+
+
+
+/*One people */
+.onePeople{
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.onePeople__avatarImage{
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.onePeople__description{
+    margin-bottom: 10px;
+}
+.onePeople__description:last-child{
+    margin-bottom: 0px;
+}
