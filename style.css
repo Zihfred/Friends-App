@@ -30,11 +30,15 @@ body {
 
 /*sort box */
 .sortBox {
-    border: 1px solid  black;
+
 
     padding: 10px;
 
    width: 250px;
+
+    -webkit-box-shadow: 3px 4px 26px 6px rgba(150,129,150,1);
+    -moz-box-shadow: 3px 4px 26px 6px rgba(150,129,150,1);
+    box-shadow: 3px 4px 26px 6px rgba(150,129,150,1);
 }
 .sortBox__header{
     font-size: 1.4rem;
@@ -50,15 +54,19 @@ body {
 .sortBox__sortedIcons{
     float: right;
     cursor: pointer;
-    color: white;
+    color: black;
     width: 50px;
     display: flex;
     justify-content: space-around;
     font-size: 20px;
 
 }
+
+.sortBox__sortedIcons--active{
+    color: red;
+}
 .sortBox__sortedIcons  .fas:hover {
- color: gold;
+ color: blue;
 }
 .sortBox__sortedHeader{
     margin-bottom: 15px;
@@ -85,7 +93,7 @@ body {
 /*peoples */
 
 .peoples{
-    margin-left: 10px;
+    margin-left: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -110,7 +118,11 @@ body {
     width: 200px;
     margin-right: 20px;
     margin-bottom: 20px;
-    border: 1px solid black;
+
+
+    -webkit-box-shadow: 3px 4px 26px 6px rgba(150,129,150,1);
+    -moz-box-shadow: 3px 4px 26px 6px rgba(150,129,150,1);
+    box-shadow: 3px 4px 26px 6px rgba(150,129,150,1);
 }
 
 .onePeople__avatarImage{
@@ -120,6 +132,9 @@ body {
     height: 100px;
     margin-top: 10px;
     margin-bottom: 20px;
+    -webkit-box-shadow: 3px 4px 26px -9px rgba(150,129,150,1);
+    -moz-box-shadow: 3px 4px 26px -9px rgba(150,129,150,1);
+    box-shadow: 3px 4px 26px -9px rgba(150,129,150,1);
 }
 .onePeople__description{
     margin-bottom: 10px;
