@@ -22,7 +22,14 @@ body {
 }
 
 
-
+.disabled{
+    pointer-events: none;
+    color: #f2f4fa;
+    cursor: none;
+}
+.nonActive{
+    pointer-events: none;
+}
 
 
 
@@ -30,8 +37,8 @@ body {
 
 /*sort box */
 .sortBox {
-
-
+    position: fixed;
+    top: 50px;
     padding: 10px;
 
    width: 250px;
@@ -93,7 +100,8 @@ body {
 /*peoples */
 
 .peoples{
-    margin-left: 20px;
+
+    margin-left: 270px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
